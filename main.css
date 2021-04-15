@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+footer {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.animation {
+    height: 100vh;
+    background-image: linear-gradient(to top, #cfd9df 0%, #767e83 100%);
+    position: relative;
+    overflow: hidden;
+}
+
+.feather {
+    height: 200px;
+    position: absolute;
+    top: 40%;
+    left: 0%;
+}
